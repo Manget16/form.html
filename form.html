@@ -4,38 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.CSS">
     <title>My forms</title>
 </head>
 <body>
+    <h1>Sign Up</h1>
 <section>
     <form>
         <fieldset>
         <legend>1.Your basic info</legend>
         <p>
-            <label for="name">Name</label>
+        <label for="name">Name</label>
             <input required type="text" name="first" id="name1">
-            <label for="myemal">Email</label>
+
+        <label for="myemal">Email</label>
             <input required type="email" name="email" id="myemail">
-            <label for="password">Password</label>
+
+        <label for="password">Password</label>
             <input required type="password" name="password" id="password">
-            <label for="age">Age
+
+        <label for="age">Age
             <input type="radio" name="under 13" value="under 13">
-            under 13
-            </label>
-            <p> 
-            <label>
-            <input type="radio" name="13" value="number">
-            13
-            </label>
-            </p>
+            under 13</label>
+        <p> 
+        <label>
+            <input type="radio" name="over 13" value="number">
+            over 13
+        </label>
+        </p>
         </p>
         </fieldset>
     </form>
     <form>
         <fieldset>
-            <legend>2.Your profile</legend>
-            <p>
-                <label for="bio:">Bio</label>
+        <legend>2.Your profile</legend>
+        <p>
+            <label for="bio:">Bio</label>
                 <input required type="bio" name="bio" id="bio">
                 <label for="job role">Job role</label>
                 <select name="Job Role" id="Job Role">
@@ -46,26 +50,26 @@
                     <option value="IOS developer">Mobile IOS developer</option>
                     <option value="Business owner">Business Business owner</option>
                     <option value="Freelancer">Business Freelancer</option>
-                </select>                   
+                </select>               
                 <label for="interest">Interest
-                <input required type="radio" name="Development" value="Development">
+                <input required type="checkbox" name="Development" value="Development">
                 Development
                 </label>
-            </p>  
-            <p>
-                <label>
-                    <input type="radio" name="Designs" value="Designs">
-                    Designs
-                </label>
-
-            <p>
-                <label>
-                    <input type="radio" name="Business" value="Business">
-                    Business
+        </p>  
+        <p>
+            <label>
+                <input type="checkbox" name="Designs" value="Designs">
+                Designs
+            </label>
+        </p>    
+        <p>
+            <label>
+                <input type="checkbox" name="Business" value="Business">
+                Business
                 </label>
         </fieldset>
         <p>
-            <button type="submit">Send</button>
+            <button type="submit">Sign Up</button>
         </p>
     </form>
 </section>
